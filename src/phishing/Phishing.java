@@ -21,7 +21,7 @@ public class Phishing {
         String[] frasesAnalizar = {
             "Necesita un cambio de clave en Amazon",
             "Contraseña: Hemos detectado actividad sospechosa en tu cuenta. Cambia tu contraseña ahora.",
-            "Banco: Verifica tu información bancaria para evitar el bloqueo de tu cuenta.",
+            "Banco: Verifica tu información para evitar el bloqueo de tu cuenta.",
             "Cuenta bloqueada. Cambia tu contraseña ahora.",
             "Alerta de seguridad : Banco Pichincha le informa que necesita cambiar su clave",};
 
@@ -33,13 +33,16 @@ public class Phishing {
 
             for (String term : phishingTerms.keySet()) {
                 if (frase.contains(term)) {
-                    termOccurrences.put(term, termOccurrences.getOrDefault(term, 0) + 1);
+                    int occurrences = termOccurrences.getOrDefault(term, 1);
+                    int value = phishingTerms.get(term); // Obtenemos el valor del término desde el archivo de frases
+                    termOccurrences.put(term, occurrences * value);
+
                 }
             }
         }
 
         // Resultados de las apariciones de términos
-        System.out.println("Resultados de las apariciones de términos de phishing:");
+        System.out.println("Resultados de las apariciones de términos ");
         for (String term : termOccurrences.keySet()) {
             int occurrences = termOccurrences.get(term);
             System.out.println(term + ": " + occurrences);
