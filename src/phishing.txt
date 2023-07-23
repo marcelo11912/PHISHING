@@ -1,6 +1,6 @@
-Alerta de seguridad: 2
-Se requiere verificación: 3
-Paypal: 1
+Alerta de seguridad:2
+Se requiere verificación:3
+Paypal:1
 ¡Necesito ayuda urgente!: 2
 Netflix: 2
 Su cuenta ha sido suspendida: 3 
