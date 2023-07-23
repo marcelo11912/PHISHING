@@ -1,0 +1,33 @@
+Alerta de seguridad: 2
+Se requiere verificación: 3
+Paypal: 1
+¡Necesito ayuda urgente!: 2
+Netflix: 2
+Su cuenta ha sido suspendida: 3 
+Seguridad de la cuenta: 3
+Su contraseña está a punto de expirar: 3
+Factura: 2
+Urgente: 3
+Cuenta bloqueada: 3
+Desactivación de la cuenta: 2
+Cuidado posible uso fraudulento de tu cuenta: 3
+Amazon: 2
+Restablecer contraseña: 2
+Verificación de identidad: 2
+Ganador de premio: 3
+Descuento: 2
+Correo electrónico de soporte: 2
+Confirmación de inicio de sesión: 2
+Banco: 3
+Multa: 1
+Evite sanciones: 1
+Dinero: 3
+Verificación de seguridad: 3 
+Inicie sesión: 2
+Oferta especial: 2
+Problema: 3
+Deuda: 2
+Outlook: 2
+
+
+
